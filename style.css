@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
+    	<meta name="keywords" content="youtube, background, lights">
+
+		<title>BACKGROUND COLOR WAVE </title>
+
+		<!-- external CSS link 
+					<link rel="stylesheet" href="css/normalize.css">
+		-->
+
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<h1>BACKGROUND COLOR WAVE</h1>
+		<ul>
+			<li id="green"></li>
+			<li id="yellow"></li>
+			<li id="red"></li>
+			<li id="blue"></li>
+			<li id="pink"></li>
+			<li id="grey"></li>
+			<li id="black"></li>
+			<li id="orange"></li>
+		</ul>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
 
