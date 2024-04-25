@@ -1,29 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
-    	<meta name="keywords" content="youtube, background, lights">
 
-		<title>BACKGROUND COLOR WAVE </title>
+body {
+  background-color: rgb(1, 25, 17);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+h1{
+  text-align: center;
+  margin: 50px 0;
+    
+}
 
-		<!-- external CSS link -->
+ul{
+  width: 300px;
+  height: 565px;
+  margin: 0 auto;
+  list-style: none;
 
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<h1>BACKGROUND COLOR WAVE</h1>
-		<ul>
-			<li id="green"></li>
-			<li id="yellow"></li>
-			<li id="red"></li>
-			<li id="blue"></li>
-			<li id="pink"></li>
-			<li id="grey"></li>
-			<li id="black"></li>
-			<li id="orange"></li>
-		</ul>
-		<script type="text/javascript" src="index.js"></script>
-	</body>
-</html>
+}
+li{
+  width: 296px;
+  height: 70px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#green{
+  background: rgb(0, 107, 48);
+}
+#yellow{
+  background: rgb(253, 245, 0);
+}
+#red{
+  background: rgb(222, 31, 2);
+}
+#blue{
+  background: rgb(24, 67, 167);
+}
+#pink{
+  background:rgba(232, 5, 153, 0.875);
+}
+#grey{
+  background: rgba(128, 128, 128, 0.877);
+}
+#black{
+  background:rgba(0, 0, 0, 0.96);
+}
+#orange{
+  background:rgb(255, 102, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: rgb(31, 53, 53);
+  }
+
+  h1{
+    text-align: center;
+    margin: 40px 50px; 
+    font-size: 25px;     
+  }
+
+  ul {
+      width: 70%; 
+     
+  }
+
+  li {
+      width: 90%; 
+  }
+
+
+}
 
